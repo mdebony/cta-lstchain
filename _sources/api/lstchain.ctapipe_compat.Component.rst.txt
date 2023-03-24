@@ -1,0 +1,7 @@
+Component
+=========
+
+.. currentmodule:: lstchain.ctapipe_compat
+
+.. autoclass:: Component
+   :show-inheritance:

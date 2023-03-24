@@ -1,0 +1,7 @@
+FlatFieldCalculator
+===================
+
+.. currentmodule:: lstchain.ctapipe_compat
+
+.. autoclass:: FlatFieldCalculator
+   :show-inheritance:

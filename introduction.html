@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Introduction &mdash; lstchain 0.6.4.dev2453+gd800d2d6 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/graphviz.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+        <script>window.MathJax = {"tex": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true}, "options": {"ignoreHtmlClass": "tex2jax_ignore|mathjax_ignore|document", "processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+        <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <script src="https://unpkg.com/mermaid@9.4.0/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="How to Contribute" href="contribute.html" />
+    <link rel="prev" title="Repository for LST analysis software (cta-lstchain)" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            lstchain
+          </a>
+              <div class="version">
+                0.6.4.dev2453+gd800d2d6
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Overview</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Introduction</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#dependencies">Dependencies</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#data-levels">Data levels</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#analysis-steps">Analysis steps</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#r1-to-dl1">R1 to DL1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#dl1-to-dl2">DL1 to DL2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#dl2-to-dl3">DL2 to DL3</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="contribute.html">How to Contribute</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">API Documentation</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="lstchain_api/index.html">API Docs</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">lstchain</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Introduction</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/introduction.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="introduction">
+<span id="id1"></span><h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
+<p><code class="docutils literal notranslate"><span class="pre">lstchain</span></code> is the analysis library for the observed and simulated LST-1 data.</p>
+<section id="dependencies">
+<h2>Dependencies<a class="headerlink" href="#dependencies" title="Permalink to this headline">¶</a></h2>
+<p><code class="docutils literal notranslate"><span class="pre">lstchain</span></code> heavily depends on <code class="docutils literal notranslate"><span class="pre">ctapipe</span></code></p>
+</section>
+</section>
+<section id="data-levels">
+<h1>Data levels<a class="headerlink" href="#data-levels" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>R0</p></li>
+<li><p>R1</p></li>
+<li><p>DL1a</p></li>
+<li><p>DL1b</p></li>
+<li><p>DL2</p></li>
+<li><p>DL3</p></li>
+</ul>
+</section>
+<section id="analysis-steps">
+<h1>Analysis steps<a class="headerlink" href="#analysis-steps" title="Permalink to this headline">¶</a></h1>
+<section id="r1-to-dl1">
+<h2>R1 to DL1<a class="headerlink" href="#r1-to-dl1" title="Permalink to this headline">¶</a></h2>
+<p>Usage of</p>
+<p><code class="docutils literal notranslate"><span class="pre">lstchain.scripts.lstchain_data_r0_to_dl1</span></code></p>
+<p>for real data and</p>
+<p><code class="docutils literal notranslate"><span class="pre">lstchain.scripts.lstchain_mc_r0_to_dl1</span></code></p>
+<p>for MC.</p>
+<p>if you already have a DL1 file containing images and parameters (DL1a and DL1b), you can recalculate the parameters
+using a different cleaning by using:
+<code class="docutils literal notranslate"><span class="pre">lstchain.scripts.lstchain_dl1ab</span></code></p>
+</section>
+<section id="dl1-to-dl2">
+<h2>DL1 to DL2<a class="headerlink" href="#dl1-to-dl2" title="Permalink to this headline">¶</a></h2>
+<p>Usage of</p>
+<p><code class="docutils literal notranslate"><span class="pre">lstchain.scripts.lstchain_dl1_to_dl2</span></code></p>
+<p>for real data and MC</p>
+</section>
+<section id="dl2-to-dl3">
+<h2>DL2 to DL3<a class="headerlink" href="#dl2-to-dl3" title="Permalink to this headline">¶</a></h2>
+<p>To write DL3 and IRF files, you should use:
+<code class="docutils literal notranslate"><span class="pre">lstchain.tools.lstchain_create_dl3_file</span></code>
+<code class="docutils literal notranslate"><span class="pre">lstchain.tools.lstchain_create_dl3_index_files</span></code>
+<code class="docutils literal notranslate"><span class="pre">lstchain.tools.lstchain_create_irf_files</span></code></p>
+<p>and analyze the results using <code class="docutils literal notranslate"><span class="pre">gammapy</span></code></p>
+<p>For a quick look into the data and perform <span class="math notranslate nohighlight">\({\theta}^2/{\alpha}\)</span> plots, you can also use:
+<code class="docutils literal notranslate"><span class="pre">lstchain.scripts.lstchain_post_dl2</span></code></p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="Repository for LST analysis software (cta-lstchain)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="contribute.html" class="btn btn-neutral float-right" title="How to Contribute" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright LST collaboration.  Last updated 24 Mar 2023 15:36.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

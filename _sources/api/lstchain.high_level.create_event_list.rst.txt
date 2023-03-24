@@ -1,0 +1,6 @@
+create_event_list
+=================
+
+.. currentmodule:: lstchain.high_level
+
+.. autofunction:: create_event_list

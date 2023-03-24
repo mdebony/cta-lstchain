@@ -1,0 +1,7 @@
+PedestalCalculator
+==================
+
+.. currentmodule:: lstchain.ctapipe_compat
+
+.. autoclass:: PedestalCalculator
+   :show-inheritance:

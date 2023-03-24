@@ -1,0 +1,6 @@
+set_expected_pos_to_reco_altaz
+==============================
+
+.. currentmodule:: lstchain.high_level.hdu_table
+
+.. autofunction:: set_expected_pos_to_reco_altaz
